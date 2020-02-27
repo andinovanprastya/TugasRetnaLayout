@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/satu"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:background="@color/birutua"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/koneng"
+    ></Button>
+
+    <Button
+        android:id="@+id/dua"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/koneng"
+        android:textColor="@color/merah"
+        android:text="2">
+    </Button>
+
+    <Button
+        android:id="@+id/tiga"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/ijo"
+        android:textColor="@color/birutua"
+        android:text="3">
+    </Button>
+
+    <Button
+        android:id="@+id/empat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/satu"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/merah"
+        android:textColor="@color/ijomuda"
+        android:text="4">
+    </Button>
+
+    <Button
+        android:id="@+id/lima"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/empat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:background="@color/ijomuda"
+        android:textColor="@color/koneng"
+        android:text="5">
+    </Button>
+
+    <Button
+        android:id="@+id/enam"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/lima"
+        android:background="@color/birutua"
+        android:textColor="@color/merah"
+        android:text="6">
+    </Button>
+
+    <Button
+        android:id="@+id/tujuh"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lima"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:background="@color/ijoelek"
+        android:textColor="@color/ijomuda"
+        android:text="7">
+    </Button>
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tujuh"
+        android:layout_marginTop="50dp"
+        android:textSize="10pt"
+        android:layout_marginLeft="10dp"
+        android:text="Retna Kusuma Dewi"
+        android:textColor="@color/birutua"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/Nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_marginTop="10dp"
+        android:textSize="10pt"
+        android:layout_marginLeft="10dp"
+        android:text="1741160008"
+        android:textColor="@color/merah"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/Kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nim"
+        android:layout_marginTop="10dp"
+        android:textSize="10pt"
+        android:layout_marginLeft="10dp"
+        android:text="JTD 3D"
+        android:textColor="@color/ijo"
+        >
+
+    </TextView>
+</RelativeLayout>

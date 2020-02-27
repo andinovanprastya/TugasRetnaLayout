@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="birutua">#0026FF</color>
+    <color name="koneng">#FFD800</color>
+    <color name="ijo">#44D51E</color>
+    <color name="merah">#FF0000</color>
+    <color name="ijomuda">#74FF00</color>
+    <color name="ijoelek">#1E8A6B</color>
+
+</resources>
